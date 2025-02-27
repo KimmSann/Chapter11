@@ -16,11 +16,9 @@ public class Quiz5 {
 		Scanner scanner = new Scanner(System.in);
 		String str = scanner.nextLine(); // 안녕하세요
 		
-		System.out.print(str.charAt(4));
-		System.out.print(str.charAt(3));
-		System.out.print(str.charAt(2));
-		System.out.print(str.charAt(1));
-		System.out.print(str.charAt(0));
+		for(int i = str.length(); i>=0; i--) {
+			System.out.println(i+ "," + str.charAt(i));
+		}
 
 	}
 
